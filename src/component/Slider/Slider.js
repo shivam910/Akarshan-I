@@ -27,7 +27,7 @@ export default function Slider() {
     
     return (
         <div
-            className="container-slider flex">
+            className="container-slider">
             {dataSlider.map((obj, index) =>{
                 return(
                     <div 

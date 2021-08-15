@@ -8,9 +8,9 @@ import { Transition } from "@headlessui/react";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
+    <div className="w-screen">
       <div className="bg-gradient-to-r from-black via-black to-purple-800 text-white">
-        <div className="max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="max-w-8xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex flex-shrink-0 ">
