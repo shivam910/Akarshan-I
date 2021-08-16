@@ -7,7 +7,7 @@ export const About = () => {
             <h1 className="text-4xl font-bold text-purple-700 text-center underline tracking-wide"> 
             About Akarshan-I</h1>
             <div className="flex justify-center items-center max-w-screen-lg">
-            <p className="text-lg text-gray-300 leading-snug text-left max-w-screen-sm">
+            <p className="text-gray-300 leading-snug text-left max-w-screen-sm">
             Akarshan-I is about deliverying best quality
             products to customers at a fair price.<br/> Akarshan provides a platform for booking appointment for the customers who are looking for nearby beauty parlours.<br/>
             The I in Akarshan-I stands for India.
@@ -16,7 +16,7 @@ export const About = () => {
             Co-founder: Shivam Shukla
             </p>
             </p>
-            <img className="h-80 w-80 hover:bg-purple-800 rounded-3xl" src={Abo} alt="image" />
+            <img className="h-72 w-80 hover:bg-purple-800 rounded-3xl" src={Abo} alt="image" />
             </div>
         </div>
     )
