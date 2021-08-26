@@ -4,6 +4,7 @@ import { Navmenuboxsvg, Navmenulinessvg } from "../assets/Icon";
 import { Navbutton } from "../assets/button";
 import India from "..//assets/images/India.png";
 import { Transition } from "@headlessui/react";
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,18 +28,22 @@ export default function Navbar() {
                   >
                     Home
                   </a>
+                <Link to="/products/clothing">
                   <a
                     href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Clothing
                   </a>
+                </Link>
+                {/* <Link to="/products/Beauty">
                   <a
                     href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Beauty Products
                   </a>
+                </Link> */}
                 </div>
               </div>
             </div>

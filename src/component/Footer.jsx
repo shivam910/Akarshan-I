@@ -5,7 +5,7 @@ import Fb from ".././assets/images/fb.gif";
 const Footer = () => {
   return (
     
-      <div className="flex flex-col justify-center mx-auto w-screen bg-gradient-to-r from-black via-black to-purple-800 text-white bottom-0 p-6">
+      <div className="flex flex-col justify-center mx-auto w-screen bg-gradient-to-r from-black via-black to-purple-800 text-white static bottom-0 p-6 ">
         <div className="grid grid-cols-4">
           <div className="flex flex-col text-left mx-3">
             <h1 className="pb-3 text-lg">Akarshan-I</h1>
