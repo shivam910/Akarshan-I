@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React,{useEffect, useState} from "react";
 import Client from "shopify-buy";
 
 // id Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI3MjA3NzU4NjY0MA==
@@ -10,13 +10,14 @@ const client = Client.buildClient({
 const Clothing = () =>{
     
     const collectionId = "Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzI3MjA3NzU4NjY0MA==";
+    const [product, setProduct] = useState([]);
     useEffect(()=>{
         client.collection.fetchAllWithProducts(collectionId).then(res =>{
             console.log(res);
         }).catch(error =>{
             console.log(error);
-        })
-    })
+        });
+    });
 
     return(
         <div classNAme="">
